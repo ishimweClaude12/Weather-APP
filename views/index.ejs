@@ -8,6 +8,10 @@
     <title>Weather Tracker</title>
 </head>
 <body>
-    <h1><%= today %></h1>
+    <form action="/"  class="form">
+        <input type="text" name="cityName">
+        <button type="submit" class="btn">Search</button>
+    </form>
+    <h1> the temperature today is<%= temp %></h1>
 </body>
 </html>
